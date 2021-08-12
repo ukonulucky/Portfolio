@@ -1,0 +1,231 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+body{
+        background-color:rgb(163, 187, 194);
+}
+  a{
+ text-decoration: none    
+ }
+ wrapper{
+     width: 100%;
+      height: 40px;
+
+ }
+
+ header {
+   display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: #ffa0a3;
+ }
+ header .flex1,  header .flex1 a{
+     flex:30%;
+     text-align: left;
+     padding-left: 3%;
+     margin-top: 10px;
+     color: #77ddf9;
+      vertical-align: middle
+ }
+header .flex2, header .flex2 a{
+flex: 40%;
+text-align: center;
+width: 10%;
+margin: 0% 3.33%;
+margin-top: 10px;
+color:#77ddf9
+}
+header .flex3, header .flex3 a{
+flex: 30%;
+text-align: right;
+padding-right: 3%;
+margin-top: 10px;
+}
+a{
+     font-size: 22px;
+     margin-bottom: 40px;
+}
+a button{
+    background-color: lightseagreen;
+    box-shadow: 10px;
+    height: 20px;
+    border-radius: 20px;
+cursor: pointer;
+transition: background-color 0.3s, transform 0.3s 0.6s ease
+
+}
+
+a button:hover {
+  background-image: linear-gradient(to right,#ffa0a3,#eafbff);
+    color: black;
+    text-decoration: underline;
+    
+   
+}
+  .image{
+      margin: 30px 20% 30px 20%;
+      height: 500px;
+      background-color: whitesmoke;
+      border: 5px solid whitesmoke
+      }
+  .picframe{
+      width: 80%;
+      height: 400px;
+       margin: 50px 10%;
+         border: 0.1px solidb whitesmoke;
+         background-color: #eafbff;
+        
+      }
+  .image .picframe img{
+      width: 100%;
+      height: 100%;
+      height: inherit; 
+       border: 3px dotted green;
+        border-radius: 50px;
+  }
+  .text{
+    display: block;
+      text-align: center;
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif;
+      color: black;
+      margin: 60px 0px;
+      background-color:whitesmoke;
+      height: 200px;
+      padding: 40px 0px;
+  }
+  .expert:hover{
+      text-decoration: underline;
+      color: rgb(170, 170, 96)
+  }
+   .adv{
+       background-color:#EAFBFF;
+       padding-bottom: 70px;
+   }
+   advcont1 h3{
+      height: 120px;
+      text-align: center;
+      font-family: Courier New, Courier, monospace;
+      font-size:  30px;
+      padding-top: 40px
+   }
+   sub-advcont1{
+      margin: 0px 10%;
+       display: flex;
+       background-color:#ffa0a3;
+  
+   }
+   .flex{
+  flex: 50%;
+  height: 500px;
+   }
+sub-advcont1-cont{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+}
+sub-advcont1-cont .item1{
+    flex: 60%;
+    width: 100%;
+    background-color: #eafbff;
+    text-align: center;
+    font-family: cursive;
+}
+sub-advcont1-cont .item1 img{
+    width: 100%;
+    height: 250px;
+}
+
+sub-advcont1-cont .item2{
+    flex:40%;
+    width: 100%;
+    background-color: #eafbff;
+    text-align: center;
+    font-family: cursive;
+}
+sub-advcont1-cont .item2 img{
+    width: 100%;
+    height: 150px
+}
+ sub-advcont1-cont1{
+     flex:50%;
+     height: 500px;
+     text-align: center
+ }
+ sub-advcont1-cont1 div{
+     width: 100%;
+     height: 500px;
+ }
+sub-advcont1-cont1 div img{
+     width: 100%;
+     height: 90%;
+}
+a i {
+    text-decoration: underline;
+    font-size: 18px;
+    color: white;
+    vertical-align: middle
+}
+.flex3 a button:hover{
+    transform: scale(1.2,1.3)
+}
+header .flex1 a, header .flex2 a{
+    width: 40px;
+    height: 30px;
+    border: 2px solid rgb(165, 74, 165);
+    background-color: transparent;
+    color: whitesmoke;
+    border-radius: 5px
+}
+
+ div.dee {
+display: flex;
+justify-content: center;
+width: 100%;
+align-items: center;
+height: 300px;
+flex-direction: column
+ }
+ .dee h1 {
+     position: relative;
+     color: transparent;
+     animation: animColor 1.3s 0.5s ease forwards;
+ }
+ .dee h1 span{
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width: 0%;
+     height: 100%;
+     background-color: lightseagreen;
+ }
+ .one{
+ animation: anim 1s ease;
+ }
+.two{
+animation: anim 1s 0.5s ease;
+}
+ .three{
+     animation: anim 1s 1s ease;
+ }
+
+
+ @keyframes anim {
+     0%{
+         width: 100%;
+         left: 0
+     }
+     100%{
+         width: 0;
+         left: 100%
+     }
+ }
+ @keyframes animColor {
+     100%{
+ color: whitesmoke;
+     }
+ }
